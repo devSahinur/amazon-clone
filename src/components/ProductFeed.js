@@ -43,7 +43,7 @@ function ProductFeed({products}) {
 
             {products
             .slice(5, products.length)
-            .map(({id, title, price, description, category, image}) => (
+            .map(({id, title, price, description, category, image,}) => (
                 <Product
                     key={id}
                     id={id}
@@ -58,4 +58,4 @@ function ProductFeed({products}) {
     )
 }
 
-export default ProductFeed
+export default ProductFeed;
