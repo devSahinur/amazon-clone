@@ -16,6 +16,7 @@
     "firebase-admin": "^9.8.0",
     "install": "^0.13.0",
     "micro": "^9.3.4",
+    "moment": "^2.29.1",
     "next": "latest",
     "next-auth": "^3.23.2",
     "react": "17.0.1",
